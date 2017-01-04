@@ -1,0 +1,28 @@
+{
+  "name": "tor-torrc-options",
+  "version": "0.0.1",
+  "description": "get valid torrc options",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'no tests'",
+    "start": "node index.js",
+    "watch:start": "chokidar \"*.js\" \"./**/*.js\" -c \"npm run start\"",
+    "eslint": "eslint .",
+    "eslint:fix": "eslint --fix ."
+  },
+  "keywords": [
+    "tor",
+    "torrc",
+    "options"
+  ],
+  "author": "rogerbf <roger@bergfalk.nu> (http://bergfalk.nu/)",
+  "license": "MIT",
+  "devDependencies": {
+    "chokidar-cli": "^1.2.0",
+    "eslint": "^3.12.2",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^2.0.1"
+  },
+  "dependencies": {}
+}
