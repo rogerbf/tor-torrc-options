@@ -24,5 +24,13 @@
     "eslint-plugin-promise": "^3.4.0",
     "eslint-plugin-standard": "^2.0.1"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rogerbf/tor-torrc-options.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rogerbf/tor-torrc-options/issues"
+  },
+  "homepage": "https://github.com/rogerbf/tor-torrc-options#readme"
 }
